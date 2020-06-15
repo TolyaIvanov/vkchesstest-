@@ -1,0 +1,25 @@
+{
+    "name": "ToylaIvanov/chess",
+    "description": "Chess written in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tolya Ivanov",
+            "email": "ivanov.anatoliu@list.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chess\\": ["src/", "src/api"]
+        }
+    },
+    "require": {
+      "ext-pdo": "*",
+      "ext-json": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.1",
+        "psy/psysh": "^0.7.2"
+    }
+}
